@@ -1,0 +1,381 @@
+<！DOCTYPE html >
+< html >
+	< 头>
+		< meta  charset =“ utf-8 ” >
+		< 标题> </ 标题>
+		
+		< 样式>
+					。包装 {
+						宽度：400 像素 ;
+						高度：600 像素 ;
+						保证金：0自动;
+						边框：1 px纯红色；
+						职位：相对；
+					}
+					
+					/ *身体* /
+					。xhr_body {
+						宽度：250 像素 ;
+						高度：400 像素 ;
+						边框：5 px实线＃ 000 ;
+						边框半径：125 像素；
+						位置：绝对；
+						最高：50 ％ ;
+						左：50 ％ ;
+						/ *居中方法* /
+						/ * margin-top：-205px；
+						/ * margin-left：-130px; * /
+						转换：翻译（-50 ％，-  50 ％）; / *居中方法* /
+						背景：黄色；
+						底部边框：5 px实线＃ 000 ;
+						溢出：隐藏；
+					}
+					
+					/ *头发* /
+					。xhr_hair_1 ，。xhr_hair_2 {
+						宽度：140 像素 ;
+						高度：100 像素 ;
+						border-top：10 px实线＃ 000 ;
+						边界半径：50 ％；
+						位置：绝对；
+					}
+					。xhr_hair_1 {
+						左：100 像素 ;
+						顶部：80 像素 ;
+						变换：旋转（40 度）;
+					}
+					。xhr_hair_2 {
+						左：95 像素 ;
+						顶部：70 像素 ;
+						变换：旋转（50 度）;
+					}
+					
+					/ *手臂* /
+					。xhr_hand_l ，。xhr_hand_r {
+						宽度：100 像素 ;
+						高度：100 像素 ;
+						边框：5 px实线＃ 000 ;
+						位置：绝对；
+						z索引：-2；
+						border-radius：30 px ;
+						背景：黄色；
+					}
+					。xhr_hand_l {
+						左：50 像素 ;
+						最高：50 ％ ;
+						变换：旋转（30 度）;
+					}
+					。xhr_hand_r {
+						右：50 像素 ;
+						最高：50 ％ ;
+						变换：旋转（-30deg）;
+					}
+					。xhr_hand_l :: 之后，。xhr_hand_r :: { 之后
+						内容：“” ;
+						宽度：50 像素 ;
+						高度：13 像素 ;
+						背景色：＃ 000 ;
+						位置：绝对；
+						边框半径：5 像素；
+					}
+					。xhr_hand_l :: { 之后
+						左：-2px;
+						顶部：55 像素 ;
+						变换：旋转（-100deg）;
+					}
+					。xhr_hand_r :: { 之后
+						右：-2px;
+						顶部：55 像素 ;
+						变换：旋转（100 度）;
+					}
+					
+					/ *腿脚* /
+					。xhr_footer_l ，。xhr_footer_r {
+						宽度：40 像素 ;
+						高度：65 像素 ;
+						背景色：＃ 000 ;
+						位置：绝对；
+						z索引：-22；
+					}
+					。xhr_footer_l {
+						左：156 像素 ;
+						/ *转换：translate（-20px）; * /
+						底部：44 像素 ;
+					}
+					。xhr_footer_r {
+						右：156 像素 ;
+						/ *转换：translate（-20px）; * /
+						底部：44 像素 ;
+					}
+					。xhr_footer_l :: 之前，。xhr_footer_r :: { 之后
+						内容：“” ;
+						宽度：55 像素 ;
+						高度：40 像素 ;
+						背景色：＃ 000 ;
+						位置：绝对；
+						边框半径：20 像素；
+					}
+					。xhr_footer_l :: 之前 {
+						左：-40px;
+						顶部：25 像素 ;
+					}
+					。xhr_footer_r :: { 之后
+						右：-40px;
+						顶部：25 像素 ;
+					}
+					
+					/ *眼镜* /
+					。xhr_eyes {
+						/ *宽度：100％；
+						高度：100像素； * /
+						/ *边框：1px红色； * /
+						位置：绝对；
+						顶部：60 像素 ;
+						左：24 像素 ; / *身体的宽度-眼镜的宽度，然后让它居中，两边剩下50px，居中* /
+					}
+					。xhr_eyes_l ，。xhr_eyes_r {
+						宽度：90 像素 ;
+						高度：90 像素 ;
+						边框：5 px实线＃ 000 ;
+						边界半径：50 ％；
+						背景色：＃ FFF ;
+						浮动：左；
+					}
+					。xhr_eyes_l :: 之前，。xhr_eyes_r :: { 之后
+						内容：“” ;
+						宽度：30 像素 ;
+						高度：20 像素 ;
+						位置：绝对；
+						背景色：＃ 000 ;
+					}
+					。xhr_eyes_l :: 之前 {
+						左：-26px;
+						顶部：38 像素 ;
+						变换：旋转（15 度）;
+					}
+					。xhr_eyes_r :: { 之后
+						右：-26px;
+						顶部：38 像素 ;
+						变换：旋转（-15deg）;
+					}
+					/ *眼睛* /
+					。xhr_l_black ，。xhr_r_black {
+						宽度：55 像素 ;
+						高度：50 像素 ;
+						背景色：＃ 000 ;
+						边界半径：50 ％；
+						位置：绝对；
+						顶部：25 像素 ;
+						/ *左：3px； * /
+					}
+					。xhr_eyes_l。xhr_l_black {
+						左：8 像素 ;
+					}
+					。xhr_eyes_r。xhr_r_black {
+						/ * float：正确； * /
+						右：37 像素 ;
+					}
+					。xhr_l_white ，。xhr_r_white {
+						宽度：22 像素 ;
+						高度：22 像素 ;
+						背景色：＃ FFF ;
+						边界半径：50 ％；
+						位置：绝对；
+						顶部：40 像素 ;
+					}
+					。xhr_eyes_l。xhr_l_white {
+						左：35 像素 ;
+						 
+					}
+					。xhr_eyes_r。xhr_r_white {
+						右：64 像素 ;
+					}
+					/ *嘴巴* /
+					
+					。xhr_mouth {
+						宽度：60 像素 ;
+						高度：35 像素 ;
+						边框：5 px实线＃ 000 ;
+						位置：绝对；
+						border-radius：0  0  0 px  30 px ;
+						背景色：＃ FFF ;
+						左：   90 像素 ;
+						顶部：180 像素 ;
+						变换：旋转（-30deg）;
+					}
+					。xhr_mouth :: { 之后
+						内容：“” ;
+						宽度：81 像素 ;
+						高度：40 像素 ;
+						背景色：黄色；
+						位置：绝对；
+						底部边框：5 px实线＃ 000 ;
+						左：0 像素 ;
+						顶部：-22px;
+						变换：旋转（30 度）;
+					}
+					
+					
+					/ *裤子* /
+					。xhr_trousers {
+						位置：绝对；
+						顶部：290 像素 ;
+					}
+					。xhr_trousers_t {
+						宽度：150 像素 ;
+						高度：50 像素 ;
+						背景：蓝色；
+						边框：5 px实线＃ 000 ;
+						边框底部：无；/ *去掉骨架，就和裤子连上了。* /
+						位置：绝对；
+						左：45 像素 ;
+						顶部：-40px;
+						z索引：999；
+					}
+					。xhr_trousers_b {
+						宽度：240 像素 ;
+						高度：94 像素 ;
+						背景：蓝色；
+						边框：5 px实线＃ 000 ;
+						位置：绝对；
+						顶部：10 像素 ;
+				
+					}
+					
+					
+					/ *肩带* /
+					。t_l_belt ，。t_r_belt {
+						宽度：100 像素 ;
+						高度：20 像素 ;
+						背景：蓝色；
+						边框：5 px实线＃ 000 ;
+						位置：绝对；
+					}
+					。t_l_belt {
+						左：-79px;
+				    	顶部：-20px;
+						变换：旋转（30 度）;
+					}
+					。t_r_belt {
+						右：-79px;
+				    	顶部：-20px;
+						变换：旋转（-30deg）;
+					}
+					。t_l_belt :: 之后，。t_r_belt :: { 之后
+						内容：“” ;
+						宽度：10 像素 ;
+						高度：10 像素 ;
+						背景：＃ 000 ;
+						边界半径：50 ％；
+						位置：绝对；
+					}
+					。t_l_belt :: { 之后
+						左：82 像素 ;
+				    	顶部：5 像素 ;
+						
+					}
+				
+					。t_r_belt :: { 之后
+						左：10 像素 ;
+						顶部：5 像素 ;
+					}
+					
+					/ *头发动画* /
+					。xhr_hair_1 ，。xhr_hair_2 {
+						动画：头发5 s无限缓和；
+					}
+					@keyframes头发{
+						10 ％ { 转换：旋转（43 度）；}
+						20 ％ { 变换：旋转（48 度）; }
+						50 ％ { 变换：旋转（50 度）; }
+						80 ％ { 变换：旋转（43 度）; }
+						90 ％ { 转换：旋转（50 度）；}
+						
+					}
+					
+					/ *眼睛动画* /
+					。xhr_r_black ，。xhr_l_black {
+						动画：eyse 5 s easy -in infinite;
+					}
+				   @keyframes eyse {
+							10 ％， 50％， 60％， 100％{
+								转换：翻译（0）;
+				         	}
+							30 ％，40 ％ {
+								transform：翻译（15 px）;
+							}
+							70 ％，80 ％ {
+								转换：翻译（5 px）;
+							}
+							
+					}
+					。xhr_l_white ，。xhr_r_white {
+						动画：whiteEyes 5 s无限缓和；
+					}
+					
+					@keyframes whiteEyes {
+						10 ％， 50％， 60％， 100％{
+							转换：翻译（0）;
+						}
+						30 ％，40 ％ {
+							转换：翻译（15 px，4 px）;
+						}
+						70 ％，80 ％ {
+							转换：翻译（5 px，4 px）;
+						}
+					}
+				</ style >
+	</ head >
+	< 身体>
+		< div  class =“ wrap ” >
+			<！-头发->
+			< div  class =“ xhr_hair ” >
+				< div  class =“ xhr_hair_1 ” > </ div >
+				< div  class =“ xhr_hair_2 ” > </ div >
+			</ div >
+			<！-身体->
+			< div  class =“ xhr_body ” >
+					<！-眼镜->
+					< div  class =“ xhr_eyes ” >
+							<！-左眼镜->
+						< div  class =“ xhr_eyes_l ” >
+							< div  class =“ xhr_l_black ” > </ div >
+							< div  class =“ xhr_l_white ” > </ div >
+						</ div >
+							<！-右眼镜->
+						< div  class =“ xhr_eyes_r ” >
+							< div  class =“ xhr_r_black ” > </ div >
+							< div  class =“ xhr_r_white ” > </ div >
+						</ div >
+					</ div >
+					<！-嘴巴->
+					< div  class =“ xhr_mouth ” > </ div >
+					<！-裤子->
+					< div  class =“ xhr_trousers ” >
+						<！-裤子的上部分->
+						< div  class =“ xhr_trousers_t ” >
+							< div  class =“ t_l_belt ” > </ div >
+							< div  class =“ t_r_belt ” > </ div >
+						</ div >
+						<！-裤子的下部分->
+						< div  class =“ xhr_trousers_b ” > </ div >
+		
+					</ div >
+					</ div >
+					<！-手臂->
+					< div  class =“ xhr_hand ” >
+						< div  class =“ xhr_hand_l ” > </ div >
+						< div  class =“ xhr_hand_r ” > </ div >
+					</ div >
+					<！-腿脚->
+					< div  class =“ footer ” >
+						< div  class =“ xhr_footer_l ” > </ div >
+						< div  class =“ xhr_footer_r ” > </ div >
+					</ div >
+				</ div >
+
+		
+
+
+	</ body >
+</ html >
